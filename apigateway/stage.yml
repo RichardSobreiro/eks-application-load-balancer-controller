@@ -1,0 +1,8 @@
+apiVersion: apigatewayv2.services.k8s.aws/v1alpha1
+kind: Stage
+metadata:
+  name: "apiv1"
+spec:
+  apiID: xkai416jl5
+  stageName: api
+  autoDeploy: true
