@@ -1,6 +1,6 @@
 # eks-application-load-balancer-controller
 
-Creation of a eks cluster with load balancer controller and aws controller for kubernetes (ACK).
+Creation of an eks cluster with load balancer controller and aws controller for kubernetes (ACK).
 The load balancer controller is responsible for the creation of one application load balancers. The ALB will have two rules managed by the ingress object of each service: author and echo service.
 
 The AWS Controller for Kubernetes will be responsible for the management of API Gateway resources using K8s manifest: the VPC Link, the API with Resources and Methods using VPC Link private integration with the ALB and the API Stage with auto deployment true.
